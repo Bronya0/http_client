@@ -1,0 +1,90 @@
+- name: 导出研判结果表
+  method: GET
+  url: https://api.example.com/data
+  query_params:
+    param1: value1
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
+
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  post_data:
+    key1: value2
+    key2: value3
