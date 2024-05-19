@@ -1,90 +1,95 @@
-- name: 导出研判结果表
+- name: hello
   method: GET
-  url: https://api.example.com/data
-  query_params:
-    param1: value1
+  url: http://127.0.0.1:8080/hello
+  params:
+    value1: string
+
+- name: hello_json
+  method: GET
+  url: http://127.0.0.1:8080/hello_json
+  params:
+    value2: int
+    value3: string
+
+- name: post_json
+  method: POST
+  url: http://127.0.0.1:8080/post_json
+  params:
+    value2: int
+    value3: string
+
+- name: 下载配置文件
+  method: GET
+  url: http://127.0.0.1:8080/download
+  download: true
+  params:
+    value2: int
+    value3: string
+
+- name: Post请求5
+  method: POST
+  url: https://api.example.com/submit
+  params:
+    value2: int
+    value3: string
+
+- name: Post请求6
+  method: POST
+  url: https://api.example.com/submit
+  params:
+    value2: int
+    value3: string
+
+- name: get请求1
+  method: GET
+  url: https://api.example.com/submit
+  params:
+    value2: string
+    value3: string
 
 - name: Post请求1
   method: POST
   url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
+  params:
+    value2: string
+    value3: string
 
 - name: Post请求1
   method: POST
   url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
-
-- name: Post请求1
-  method: POST
-  url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
+  params:
+    value2: string
+    value3: string
 
 
 - name: Post请求1
   method: POST
   url: https://api.example.com/submit
-  post_data:
-    key1: value2
-    key2: value3
+  params:
+    value2: string
+    value3: string
+
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  params:
+    value2: string
+    value3: string
+
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  params:
+    value2: string
+    value3: string
+
+
+
+- name: Post请求1
+  method: POST
+  url: https://api.example.com/submit
+  params:
+    value2: string
+    value3: string
